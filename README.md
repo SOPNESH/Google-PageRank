@@ -6,8 +6,10 @@ The codes have been tested on three datasets:-
 * 500 pages, 124750 links
 * 1000 pages, 499500 links
 
-To run the sequential code file:-
-g++ sequential.cpp -o sequential -fopenmp
+To compile and run sequential file
+* `g++ sequential.cpp -o sequential -fopenmp`
+* `./sequential`
 
-To run the parallel code file:-
-g++ parallel.cpp -o parallel -fopenmp
+To compile and run parallel file
+* `g++ parallel.cpp -o parallel -fopenmp`
+* `./parallel`
